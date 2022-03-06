@@ -3,22 +3,8 @@ body {
     background: pink;
     font-family: sans-serif;
     font-weight: 400;
-    color: pink;
-    background-image: url("img/IMG_6653.jpeg");
-    background-size: 1450px;
-    background-repeat: no-repeat;
-    background-position: fixed;
-    background-
-}
-
-.backimg {
-    width: 40%;
-    margin-left: 7.5%;
-    background-color: transparent;
-}
-
-h1 {
-    text-align: center;
+    background-image: url(".jpeg");
+    background-size: auto;
 }
 
 .container {
