@@ -1,14 +1,14 @@
 body {
     margin: 0;
-    background: pink;
+    background: whitesmoke;
     font-family: sans-serif;
     font-weight: 400;
-    color: pink;
+    color: whitesmoke;
     background-image: url("img/IMG_6653.jpeg");
-    background-size: 1450px;
+    background-size: 1000px;
     background-repeat: no-repeat;
-    background-position: fixed;
-    background-
+    background-position: top 4em right 14em;
+    border-bottom: 1em;
 }
 
 .backimg {
@@ -65,7 +65,7 @@ nav li {
 }
 
 nav a {
-    color:aliceblue;
+    color: pink;
     text-decoration: none;
     text-transform: uppercase;
     font-size: 12;
