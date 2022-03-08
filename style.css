@@ -7,13 +7,14 @@ body {
     background-image: url("img/IMG_6653.jpeg");
     background-size: 1000px;
     background-repeat: no-repeat;
-    background-position: top 4em right 14em;
+    background-position: center;
+    background-attachment: fixed;
     border-bottom: 1em;
 }
 
 .backimg {
     width: 40%;
-    margin-left: 7.5%;
+    margin-left: 2%;
     background-color: transparent;
 }
 
@@ -68,7 +69,7 @@ nav a {
     color: pink;
     text-decoration: none;
     text-transform: uppercase;
-    font-size: 12;
+    font-size: 16px;
 }
 
 nav a:hover {
