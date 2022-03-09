@@ -9,22 +9,49 @@ body {
 
 .homebody {
     background-image: url("img/IMG_6653.jpeg");
-    background-size: 1100px;
+    background-size: 1035px;
     background-repeat: no-repeat;
-    background-position: top;
+    background-position: 50% 7%;
     background-attachment: local;
     border-bottom: 1em;
+    color: white;
+    font-weight: 400;
+    font-family: sans-serif;
 }
 
-div#artists, div#about{
+div#backgroundtext {
+    padding-top: 17%;
+    margin-left: 22%;
+    margin-right: 22%;
+}
+
+.insta {
+    padding-top: 25%;
+}
+
+div#imgul {
+    align-items: center;
+    margin-left: 2%;
+    margin-right: 2%;
+}
+
+div#about {
     text-align: center;
-    margin-left: 10%;
-    margin-right: 10%;
+    margin-left: 22%;
+    margin-right: 22%;
+    padding: 1%;
+}
+
+div#artists {
+    text-align: center;
+    margin-left: 15%;
+    margin-right: 15%;
 }
 
 ul {
     list-style-type: none;
-    margin: 40px;
+    margin: 60px;
+    padding: 30px;
     display: inline-flex;
 }
 
