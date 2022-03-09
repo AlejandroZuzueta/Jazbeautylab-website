@@ -1,24 +1,43 @@
 body {
     margin: 0;
-    background: whitesmoke;
+    background: white;
     font-family: sans-serif;
     font-weight: 400;
-    color: whitesmoke;
+    color: black;
+    text-align: center;
+}
+
+.homebody {
     background-image: url("img/IMG_6653.jpeg");
-    background-size: 1000px;
+    background-size: 1100px;
     background-repeat: no-repeat;
-    background-position: center;
-    background-attachment: fixed;
+    background-position: top;
+    background-attachment: local;
     border-bottom: 1em;
 }
 
-.backimg {
-    width: 40%;
-    margin-left: 2%;
-    background-color: transparent;
+div#artists, div#about{
+    text-align: center;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+ul {
+    list-style-type: none;
+    margin: 40px;
+    display: inline-flex;
+}
+
+li {
+    align-items: center;
+    padding: 5px;
 }
 
 h1 {
+    text-align: center;
+}
+
+p {
     text-align: center;
 }
 
@@ -43,8 +62,7 @@ header::after {
 
 .logo {
     float: left;
-    padding: 0;
-    width: 220px;
+    width: 200px;
     height: 70px;
 }
 
@@ -87,6 +105,12 @@ nav a::before {
     transition: all ease-in-out 250ms;
 }
 
+nav a.active::before {
+    transition: unset;
+    width: 100%;
+}
+
 nav a:hover::before {
     width: 100%;
 }
+
