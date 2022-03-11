@@ -1,187 +1,223 @@
 body {
-    margin: 0;
-    background: white;
-    font-family: sans-serif;
-    font-weight: 400;
-    color: black;
-    text-align: center;
+  margin: 0;
+  background: white;
+  font-family: sans-serif;
+  font-weight: 400;
+  color: black;
+  text-align: center;
 }
 
 .homebody {
-    background-image: url("img/newback.jpg");
-    background-size: 1440px 715px;
-    background-repeat: no-repeat;
-    background-position: 50% 10%;
-    background-attachment: local;
-    border-bottom: 1em;
-    color: white;
-    font-weight: 400;
-    font-family: sans-serif;
-    background-image: border: 5px solid black;
+  background-image: url("img/newback.jpg");
+  background-size: 1440px 715px;
+  background-repeat: no-repeat;
+  background-position: 50% 10%;
+  background-attachment: local;
+  border-bottom: 1em;
+  color: white;
+  font-weight: 400;
+  font-family: sans-serif;
+}
+
+div#eyelashes {
+  padding-top: 1.1em;
+}
+
+div#nails {
+  padding-top: 4em;
+}
+
+div#eyelashes h2,
+div#nails h2 {
+  font-size: 2em;
+}
+
+.servbody {
+  left: 140em;
+  display: flex;
+  align-items: flex-start;
+  text-align: center;
+}
+
+div#left-column {
+  flex: 1 1 650px;
+  padding: 7em;
+  line-height: 3em;
+  padding-top: 2em;
+  padding-bottom: 1em;
+  margin-left: 2em;
+  margin-right: 2em;
+}
+
+div#right-column {
+  border-left: black solid 1px;
+  flex: 1 1 350px;
+  padding-top: 2.5em;
+  padding-bottom: 0.1em;
+  line-height: 7em;
 }
 
 h1 {
-    font-size: 3em;
+  font-size: 3em;
 }
 a {
-    color: pink;
+  color: pink;
 }
 
 a:hover {
-    color: black;
+  color: black;
 }
 
 img {
-    border: 5px solid black;
-    align-items: center;
+  border: 5px solid black;
+  align-items: center;
 }
 
 div#pricephotos {
-    padding: 2%;
-    max-width: 95%;
-    align-items: center;
-} 
+  padding: 2%;
+  max-width: 95%;
+  align-items: center;
+}
 
 .artistpix {
-    margin: 5px;
-    padding: 2.5%;
-} 
+  margin: 5px;
+  padding: 2.5%;
+}
 
 div#backgroundtext {
-    padding-top: 14%;
-    margin-left: 15%;
-    margin-right: 15%;
-    text-shadow: 3px 3px 2px black;
+  padding-top: 14%;
+  margin-left: 15%;
+  margin-right: 15%;
+  text-shadow: 3px 3px 2px black;
 }
 
 h1#title {
-    font-size: 5em;
-    margin-left: 2%;
-    margin-right: 2%;
+  font-size: 5em;
+  margin-left: 2%;
+  margin-right: 2%;
 }
 
 .insta {
-    padding-top: 23%;
-    padding-bottom: 5%;
+  padding-top: 23%;
+  padding-bottom: 5%;
 }
 
 div#imgul {
-    align-items: center;
-    margin-left: 2%;
-    margin-right: 2%;
+  align-items: center;
+  margin-left: 2%;
+  margin-right: 2%;
 }
 
 div#about {
-    text-align: center;
-    margin-left: 25%;
-    margin-right: 25%;
-    padding: 1%;
-    line-height: 1.9em;
+  text-align: center;
+  margin-left: 25%;
+  margin-right: 25%;
+  padding: 1%;
+  line-height: 1.9em;
 }
 
 div#artists {
-    text-align: center;
-    margin-left: 23%;
-    margin-right: 23%;
-    line-height: 1.8em;
-    padding-bottom: 1em;
-    padding-top: em;
+  text-align: center;
+  margin-left: 23%;
+  margin-right: 23%;
+  line-height: 1.8em;
+  padding-bottom: 1em;
 }
 
-div#pricephotos li{
-    padding: 1em;
+div#pricephotos li {
+  padding: 1em;
 }
 
 ul {
-    list-style-type: none;
-    margin: 40px;
-    padding: 15px;
-    display: inline-flex;
+  list-style-type: none;
+  margin: 40px;
+  padding: 15px;
+  display: inline-flex;
 }
 
 li {
-    align-items: center;
-    padding: 5px;
+  align-items: center;
+  padding: 5px;
 }
 
 h1 {
-    text-align: center;
+  text-align: center;
 }
 
 p {
-    text-align: center;
-    font-size: 1.4em;
+  text-align: center;
+  font-size: 1.4em;
 }
 
 .container {
-    width: 85%;
-    margin: 0 auto;
+  width: 85%;
+  margin: 0 auto;
 }
 
 header {
-    background-color: black;
-    border-bottom: black solid 2px;
-    position: -webkit-sticky;
-    position: sticky;
-    top: 0;
+  background-color: black;
+  border-bottom: black solid 2px;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
 }
 
 header::after {
-    content: '';
-    display: table;
-    clear: both;
+  content: "";
+  display: table;
+  clear: both;
 }
 
 .logo {
-    float: left;
-    width: 200px;
-    height: 70px;
+  float: left;
+  width: 200px;
+  height: 70px;
 }
 
 nav {
-    float:right;
+  float: right;
 }
 
 nav ul {
-    margin: 0;
-    padding: 0;
-    list-style: none;
+  margin: 0;
+  padding: 0;
+  list-style: none;
 }
 
 nav li {
-    display: inline-block;
-    margin-left: 55px;
-    padding-top: 28px;
-    position: relative;
+  display: inline-block;
+  margin-left: 55px;
+  padding-top: 28px;
+  position: relative;
 }
 
 nav a {
-    color: pink;
-    text-decoration: none;
-    text-transform: uppercase;
-    font-size: 16px;
+  color: pink;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 16px;
 }
 
 nav a:hover {
-    color: pink;
+  color: pink;
 }
 
 nav a::before {
-    content: '';
-    display: block;
-    height: 5px;
-    background-color: pink;
-    position:absolute;
-    width: 0%;
-    top: 0;
-    transition: all ease-in-out 250ms;
+  content: "";
+  display: block;
+  height: 5px;
+  background-color: pink;
+  position: absolute;
+  width: 0%;
+  top: 0;
+  transition: all ease-in-out 250ms;
 }
 
 nav a.active::before {
-    transition: unset;
-    width: 100%;
+  transition: unset;
+  width: 100%;
 }
 
 nav a:hover::before {
-    width: 100%;
+  width: 100%;
 }
